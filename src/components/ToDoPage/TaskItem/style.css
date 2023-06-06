@@ -1,0 +1,22 @@
+.task_container{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 10px 18px #d2d2d2;
+}
+.task_container > .task_desc{
+    overflow-wrap: anywhere;
+}
+.task_cta_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+.task_cta > svg{
+    margin: 0px 9px;
+}
+.task_cta > svg:hover{
+    cursor: pointer;
+}
