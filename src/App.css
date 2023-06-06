@@ -1,0 +1,26 @@
+.App {
+    height: 100vh;
+    overflow: hidden;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    background-color: black;
+    color: #fff;
+    border-color: #fff;
+}
+th, td{
+    padding: 7px 15px;
+}
+table{
+    width: 100%;
+}
+.table_caption{
+    text-align: left;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
