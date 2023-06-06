@@ -1,0 +1,15 @@
+.members_container{
+    align-items: center;
+    padding: 3% 3% 2% 3%;
+    overflow: auto;
+    box-sizing: border-box;
+    height: calc(90% - 5%);
+}
+.team_details_cta{
+    color: #5d32d5;
+    text-decoration: none;
+}
+.team_details_cta:hover{
+    cursor: pointer;
+    font-weight: 500;
+}

@@ -1,0 +1,6 @@
+.team_details_container{
+    align-items: center;
+    padding: 3% 3% 2% 3%;
+    overflow: auto;
+    height: calc(90% - 5%);
+}
