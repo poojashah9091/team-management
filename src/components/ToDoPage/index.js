@@ -13,8 +13,7 @@ const ToDoPage = () =>{
 
     const handleAddTaskSubmit = () =>{
         const task = {
-            description: taskDesc,
-            completed: false
+            description: taskDesc
         }
         dispatch(addTask(task));
         setShowModel(false);
